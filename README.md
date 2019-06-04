@@ -1,13 +1,18 @@
-# Cisco DNA Center 101 Code
+# Cisco DNA Center - Assign Network Devices to Site
 
-This repository contains a few simple scripts to get started with Cisco DNA Center API.
-
-You will need the requests[secure] python module.
+Dynamically create and assign sites and devices using Cisco DNA Center APIs
+- Obtain the Device to Site Mapping
+- Source is a JSON 
+- Get Site and Device information
+- Assign Network Device to Site
+- Ready for Cisco DNA Center Automation and Assurance
 
 ## Getting Started
 
-```buildoutcfg
-pip install requests
+```bash
+python create-site.py site-info.json
+ 
+python device-to-site.py device-to-site.json
 ```
 
 You change the controller credentials either through environment variables or by editing the dnac_config.py file
