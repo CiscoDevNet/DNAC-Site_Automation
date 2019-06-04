@@ -1,0 +1,52 @@
+{
+    "area": [
+	{
+		"name": "US-East",
+		"parentName": "Global"
+	},
+	{
+		"name": "Area1",
+		"parentName": "US-East"
+	},
+	{       
+                "name": "Area2",
+                "parentName": "US-East"
+        },
+        {       
+                "name": "Area3",
+                "parentName": "US-East"
+        }
+    ],
+    "building": [
+        {
+                "area_name": "Area1",
+                "area_parentName": "US-East",
+		"bld_name": "Area1-BLD1",
+		"bld_address": "170 West Tasman Drive, San Jose 95134"
+        },
+        {
+                "area_name": "Area1",
+                "area_parentName": "US-East",
+		"bld_name": "Area1-BLD2",
+		"bld_address": "171 West Tasman Drive, San Jose 95134"
+        },
+        {
+                "area_name": "Area2",
+                "area_parentName": "US-East",
+		"bld_name": "Area2-BLD1",
+		"bld_address": "180 West Tasman Drive, San Jose 95134"
+        },
+        {
+                "area_name": "Area3",
+                "area_parentName": "US-East",
+		"bld_name": "Area3-BLD1",
+		"bld_address": "190 West Tasman Drive, San Jose 95134"
+        },
+        {
+                "area_name": "Area3",
+                "area_parentName": "US-East",
+		"bld_name": "Area3-BLD2",
+		"bld_address": "191 West Tasman Drive, San Jose 95134"
+        }
+    ]
+}

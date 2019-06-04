@@ -1,0 +1,32 @@
+{
+    "device": [
+	{
+		"serialNumber": "FOC1703V36B",
+		"siteName": "Area1-BLD1"
+	},
+	{
+		"serialNumber": "FTX1842AHM1",
+		"siteName": "Area1-BLD1"
+	},
+	{
+		"serialNumber": "FTX1842AHM2",
+		"siteName": "Area1-BLD2"
+	},
+	{
+		"serialNumber": "FOX1525G5S1",
+		"siteName": "Area1-BLD2"
+	},
+	{
+		"serialNumber": "FOX1524GV2Z",
+		"siteName": "Area3-BLD1"
+	},
+	{
+		"serialNumber": "FXS1825Q1PA",
+		"siteName": "Area3-BLD1"
+	},
+	{
+		"serialNumber": "FCW1630L0JG",
+		"siteName": "Area3-BLD2"
+	}
+    ]
+}
