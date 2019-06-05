@@ -8,13 +8,13 @@ Dynamically create and assign sites and devices using Cisco DNA Center APIs
 - Ready for Cisco DNA Center Automation and Assurance
 
 ## Getting Started
-Use the following command to create your sites in Cisco DNA Center. Sites are defined in **site-info.json** file:
+Use the following command to create your sites in Cisco DNA Center. Sites are defined in [site-info.json](./site-info.json) file:
 
 ```bash
 python create-site.py site-info.json
 ```
 
-After you've succesfully setup your sites, you can start assigning devices to sites. Device to site assignment is defined in **device-to-site.json** file. Run the command below once ready: 
+After you've succesfully setup your sites, you can start assigning devices to sites. Device to site assignment is defined in [device-to-site.json](./device-to-site.json) file. Run the command below once ready: 
 ```bash
 python device-to-site.py device-to-site.json
 ```
